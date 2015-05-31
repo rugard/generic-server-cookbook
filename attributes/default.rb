@@ -1,5 +1,5 @@
 
-default['authorization'] => 
+default['authorization'] = 
 {
 	"sudo" =>
 	{
