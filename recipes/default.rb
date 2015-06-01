@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe "sudo"
-include_recipe "openssh"
-include_recipe "apt"
+include_recipe 'sudo'
+include_recipe 'openssh'
+include_recipe 'apt'
 
