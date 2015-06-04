@@ -34,6 +34,7 @@ default['openssh'] =
 
 	"server" =>
 	{
+		"address_family" => "inet",
 		"subsystem" => ["sftp /usr/lib/sftp-server"],
 		"password_authentication" => "no"
 	}
