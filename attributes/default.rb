@@ -35,12 +35,7 @@ default['openssh'] =
 	"server" =>
 	{
 		"subsystem" => ["sftp /usr/lib/sftp-server"],
-		"password_authentication" => "no",
-
-		"match" => 
-		{
-			"Address 192.168.1.0/24" => { "password_authentication" => "yes" }
-		}
+		"password_authentication" => "no"
 	}
 
 }
