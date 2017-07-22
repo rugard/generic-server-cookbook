@@ -53,6 +53,7 @@ default['apt_periodic']
 		[
 			"${distro_id}:${distro_codename}-security",
 			"trusty:nginx"
+			"xenial:nginx"
 		]
 
 	}
