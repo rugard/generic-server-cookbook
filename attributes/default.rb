@@ -52,7 +52,7 @@ default['apt_periodic']
 		"allowed_origins" => 
 		[
 			"${distro_id}:${distro_codename}-security",
-			"trusty:nginx"
+			"trusty:nginx",
 			"xenial:nginx"
 		]
 
