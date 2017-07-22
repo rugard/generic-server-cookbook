@@ -9,6 +9,11 @@ default['authorization'] =
 		'package_name' => "sudo",
 		'sudoers_defaults' => ['env_reset','secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"'],
 		'command_aliases' => [{ name: 'SYSTEM', command_list:['/sbin/reboot'] }]
+		'custom_commands' => 
+		{
+			'users' : [{}]
+			'groups' : [{}]
+		}
 	}
 }
 
