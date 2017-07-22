@@ -11,7 +11,7 @@ default['authorization'] =
 		'command_aliases' => [{ name: 'SYSTEM', command_list:['/sbin/reboot'] }]
 		'custom_commands' => 
 		{
-			'users' : [{}]
+			'users' : [{}],
 			'groups' : [{}]
 		}
 	}
